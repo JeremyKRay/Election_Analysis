@@ -1,7 +1,7 @@
 # Election_Analysis
 
 ## Project Overview
-A Colorado Board of Elections employee has given you the following tasks to completee the election audit of a recnet local congressional election.
+A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
 
 1. Calculate the total number of votes cast.
 2. Get a complete list of candidates who received votes.
@@ -28,7 +28,7 @@ The analysis of the election show that:
   - Candidate 1, **Diana DeGette**, who received **73.8%** of the vote and **272,892** number of votes.
 
 ## Challenge Overview
-As stated in the project overview, this challenge sought to answer 5 questions about an election by analyzing a csv file of election data. This was done using Python coding language and Visual Studio Code text and code editor. Skills learned included importing python modules into the VS code editor that could be called upon to execute various tasks. This included importing the csv file to be edited. The analysis code incorporated the creation and delcaration of several variables, lists, and dictionaries and loops that included 'with' statements and 'for' statements with nested 'if' statements. To view the results, we used 'f string' formatting. The full code can be viewed by clicking the following link. ![Election Analysis Python Code](PyPoll.py).
+As stated in the project overview, this challenge sought to answer 5 questions about an election by analyzing a csv file of election data. All questions were successfully answered using Python coding language and Visual Studio Code text and code editor. Skills learned include importing python modules into the VS code editor that could be called upon to execute various tasks. This included importing and saving the csv file to be edited. The analysis code incorporated the creation and delcaration of several variables, lists, and dictionaries and the utilization of loops that included 'with' statements and 'for' statements with nested 'if' statements. To view the results, we used 'f string' formatting. The full code can be viewed by clicking the following link. ![Election Analysis Python Code](PyPoll.py).
 
 ## Challenge Summary
-This challenge covered Python coding techniques building upon logic skills and thought processes developed during Module 2 when learning the VBA programming language. These are necessary in building the code necessary do do analyses on large data sets. This data set had nearly 300k records and this moduled demonstrated the power of Python to be able to analyze large data sets such as this quickly and effectively. It also further demonstrated VS Code's ability to allow a user to edit and test code. 
+This challenge covered Python coding techniques, building upon the logic skills and thought processes developed during Module 2 when learning the VBA programming language. These skills are necessary to do analyses on large data sets, regardless of the programming language. This data set had nearly 300k records and this challenge demonstrated the power of Python to be able to analyze large data sets quickly and effectively. It also further demonstrated VS Code's ability to allow a user to edit and test code. 
