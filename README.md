@@ -53,4 +53,6 @@ The task of completing an election audit of a local congressional election was c
   1. If city or district data is added to the csv file, the code for analyzing the file based on county could be copied and just rewritten for district and city. New variables, definition, and list would need to be created, but the code could remain the same but replacing "county" with "city" or "district". 
   2. If demographic data were added to the csv file, such as sex or race, this could also be anaylzed using this code with some modification. If you simply just want to know numbers and percentages of the various demographic parameters, it would simply needed to be added in the same way as adding a "district" or "city" column to be counted. It gets to be a little more complicated if you want to analyze this data across the group of counties or across the group of candidates. This would require additional conditions added to the candidate and/or county 'for' loops. It may even require a nested loop. The idea is to group by candidate or county first and then group by demographic within each county or candidate. So, I think the "demographic" loop would need to be created outside the existing "county" and/or "candidate" loop so that the latter is counted first and then the demographics. 
 
-The full code can be viewed by clicking the following link. [Election Analysis Python Code](PyPoll_Challenge.py).
+The full code can be viewed by clicking the following link. 
+
+[Election Analysis Python Code](PyPoll_Challenge.py).
