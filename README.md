@@ -44,11 +44,13 @@ The analysis of the election show that:
 - The winner of the election was:
   - Candidate 1, **Diana DeGette**, who received **73.8%** of the vote and **272,892** number of votes.
 
-The results of the audit can be printed to the terminal screen or they can be viewed in the attached text file. ![Election_Audit_Results](Analysis/election_analysis.txt).
+The results of the audit can be printed to the terminal screen or they can be viewed in the attached text file. 
+
+[Election_Audit_Results](Analysis/election_analysis.txt).
 
 ## Election Audit Summary
 The task of completing an election audit of a local congressional election was completed by analyzing a csv file of election data using Python programming language and Visual Studio Code editor software. The file contains nearly 370K records and the code I developed loops through each record, grouping the data by first the county and then the candidate, and calculates the total and percentage for each unique county and candidate. It does this quick and efficiently. Because of this, the election commission should know that this same code can be used to conduct audits on future elections. If future elections simply contain more or less candidates or cover more or less counties, the code would not need to be changed at all. If additional data is provided and the commission would like to know additional information, the script could be modified to complete varying types of audits. For example:
   1. If city or district data is added to the csv file, the code for analyzing the file based on county could be copied and just rewritten for district and city. New variables, definition, and list would need to be created, but the code could remain the same but replacing "county" with "city" or "district". 
   2. If demographic data were added to the csv file, such as sex or race, this could also be anaylzed using this code with some modification. If you simply just want to know numbers and percentages of the various demographic parameters, it would simply needed to be added in the same way as adding a "district" or "city" column to be counted. It gets to be a little more complicated if you want to analyze this data across the group of counties or across the group of candidates. This would require additional conditions added to the candidate and/or county 'for' loops. It may even require a nested loop. The idea is to group by candidate or county first and then group by demographic within each county or candidate. So, I think the "demographic" loop would need to be created outside the existing "county" and/or "candidate" loop so that the latter is counted first and then the demographics. 
 
-The full code can be viewed by clicking the following link. ![Election Analysis Python Code](PyPoll_Challenge.py).
+The full code can be viewed by clicking the following link. [Election Analysis Python Code](PyPoll_Challenge.py).
