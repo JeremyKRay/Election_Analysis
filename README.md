@@ -2,7 +2,7 @@
 
 ## Election Audit Overview
 A Colorado Board of Elections employee has given me the task of completing an election audit of a recent local congressional election.
-### Election Audit Purpose
+### Purpose
 
 The purpose of this election audit is to analyze the results of a recent local congressional election. The audit includes an analysis that provides the following:
 
@@ -20,7 +20,7 @@ The purpose of this election audit is to analyze the results of a recent local c
 - Data Source: election_results.csv
 - Software: Python 3.6.1, Visual Studio Code, 1.38.1
 
-## Election Audit Results
+## Results
 The analysis of the election show that:
 - There were **369,711** votes cast in the election.
 - There were three counties represented in the election:
