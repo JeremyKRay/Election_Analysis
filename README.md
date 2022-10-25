@@ -46,7 +46,7 @@ The analysis of the election show that:
 
 The results of the audit can be printed to the terminal screen or they can be viewed in the attached text file. 
 
-[Election_Audit_Results](Analysis/election_analysis.txt).
+[Election_Audit_Results](Analysis/election_analysis.txt)
 
 ## Election Audit Summary
 The task of completing an election audit of a local congressional election was completed by analyzing a csv file of election data using Python programming language and Visual Studio Code editor software. The file contains nearly 370K records and the code I developed loops through each record, grouping the data by first the county and then the candidate, and calculates the total and percentage for each unique county and candidate. It does this quick and efficiently. Because of this, the election commission should know that this same code can be used to conduct audits on future elections. If future elections simply contain more or less candidates or cover more or less counties, the code would not need to be changed at all. If additional data is provided and the commission would like to know additional information, the script could be modified to complete varying types of audits. For example:
@@ -55,4 +55,4 @@ The task of completing an election audit of a local congressional election was c
 
 The full code can be viewed by clicking the following link. 
 
-[Election Analysis Python Code](PyPoll_Challenge.py).
+[Election Analysis Python Code](PyPoll_Challenge.py)
